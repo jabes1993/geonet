@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "GeoidHeightsDotNet/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/GeoidHeights.dll": {}
+        },
+        "runtime": {
+          "lib/GeoidHeights.dll": {}
+        }
+      },
+      "UnmanagedExports/1.2.7": {
+        "type": "package",
+        "compile": {
+          "lib/net/RGiesecke.DllExport.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net/RGiesecke.DllExport.Metadata.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoidHeightsDotNet/1.0.1": {
+      "sha512": "IiEJUAzqDQMdhPiWI8CfCy9iRHoyeg3yJmVbWFtdZQmAzHVvwIRVHlubf6mDR7P9smrIqWsEfua61iOuX/WW8w==",
+      "type": "package",
+      "path": "geoidheightsdotnet/1.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoidheightsdotnet.1.0.1.nupkg.sha512",
+        "geoidheightsdotnet.nuspec",
+        "lib/GeoidHeights.dll",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "UnmanagedExports/1.2.7": {
+      "sha512": "bPIbzFaAj4AFxjHGFGPrYnUSCyIWJMkT/LFuiphWdpUbO2L9fP68W/1SP9cHCAxgiekV+kFNbybA2VvRo8PYIQ==",
+      "type": "package",
+      "path": "unmanagedexports/1.2.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net/RGiesecke.DllExport.Metadata.dll",
+        "tools/DllExportCmdLets.psm1",
+        "tools/Mono.Cecil.dll",
+        "tools/RGiesecke.DllExport.MSBuild.dll",
+        "tools/RGiesecke.DllExport.MSBuild.pdb",
+        "tools/RGiesecke.DllExport.dll",
+        "tools/RGiesecke.DllExport.pdb",
+        "tools/RGiesecke.DllExport.targets",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "unmanagedexports.1.2.7.nupkg.sha512",
+        "unmanagedexports.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "GeoidHeightsDotNet >= 1.0.1",
+      "UnmanagedExports >= 1.2.7"
+    ]
+  },
+  "packageFolders": {
+    "/Users/jabespauya/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/jabespauya/developer/dotnet/geonet/geonet.csproj",
+      "projectName": "geonet",
+      "projectPath": "/Users/jabespauya/developer/dotnet/geonet/geonet.csproj",
+      "packagesPath": "/Users/jabespauya/.nuget/packages/",
+      "outputPath": "/Users/jabespauya/developer/dotnet/geonet/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/jabespauya/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "noWarn": [
+          "NU1701"
+        ],
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "dependencies": {
+          "GeoidHeightsDotNet": {
+            "target": "Package",
+            "version": "[1.0.1, )"
+          },
+          "UnmanagedExports": {
+            "target": "Package",
+            "version": "[1.2.7, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        }
+      }
+    }
+  }
+}
