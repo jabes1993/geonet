@@ -5,8 +5,9 @@
     <NoWarn>1073</NoWarn>
     <NoWarn>NU1701</NoWarn>
     <Lang>8</Lang>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="GeoidHeightsDotNet" Version="1.0.1" />
     <PackageReference Include="UnmanagedExports" Version="1.2.7" />
