@@ -6,5 +6,7 @@ namespace geonet.helpers
         public const string GetMSLDLL = "GetMSLResult";
 
         public const string GetWSG84DLL = "GetWSGResult";
+
+        public const string GetGeoIDDLL = "GetGeoIDResult";
     }
 }
