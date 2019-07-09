@@ -1,2 +1,7 @@
 bin/
 obj/
+
+.suo
+*.sqlite
+*.bat
+*.json

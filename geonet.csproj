@@ -1,16 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-      <NoWarn>42016,41999,42017</NoWarn>
-      <NoWarn>1073</NoWarn>
-      <NoWarn>NU1701</NoWarn>
+    <NoWarn>42016,41999,42017</NoWarn>
+    <NoWarn>1073</NoWarn>
+    <NoWarn>NU1701</NoWarn>
     <Lang>8</Lang>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="GeoidHeightsDotNet" Version="1.0.1" />
     <PackageReference Include="UnmanagedExports" Version="1.2.7" />
   </ItemGroup>
-
 </Project>
