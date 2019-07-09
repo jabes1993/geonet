@@ -1,9 +1,0 @@
-/Users/jabespauya/developer/dotnet/geonet/bin/Debug/netstandard2.1/geonet.deps.json
-/Users/jabespauya/developer/dotnet/geonet/bin/Debug/netstandard2.1/geonet.dll
-/Users/jabespauya/developer/dotnet/geonet/bin/Debug/netstandard2.1/geonet.pdb
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.csprojAssemblyReference.cache
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.csproj.CoreCompileInputs.cache
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.AssemblyInfoInputs.cache
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.AssemblyInfo.cs
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.dll
-/Users/jabespauya/developer/dotnet/geonet/obj/Debug/netstandard2.1/geonet.pdb
