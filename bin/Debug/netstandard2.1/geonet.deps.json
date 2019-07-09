@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "geonet/1.0.0": {
+        "dependencies": {
+          "GeoidHeightsDotNet": "1.0.1",
+          "UnmanagedExports": "1.2.7"
+        },
+        "runtime": {
+          "geonet.dll": {}
+        }
+      },
+      "GeoidHeightsDotNet/1.0.1": {
+        "runtime": {
+          "lib/GeoidHeights.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UnmanagedExports/1.2.7": {
+        "runtime": {
+          "lib/net/RGiesecke.DllExport.Metadata.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "geonet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoidHeightsDotNet/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IiEJUAzqDQMdhPiWI8CfCy9iRHoyeg3yJmVbWFtdZQmAzHVvwIRVHlubf6mDR7P9smrIqWsEfua61iOuX/WW8w==",
+      "path": "geoidheightsdotnet/1.0.1",
+      "hashPath": "geoidheightsdotnet.1.0.1.nupkg.sha512"
+    },
+    "UnmanagedExports/1.2.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bPIbzFaAj4AFxjHGFGPrYnUSCyIWJMkT/LFuiphWdpUbO2L9fP68W/1SP9cHCAxgiekV+kFNbybA2VvRo8PYIQ==",
+      "path": "unmanagedexports/1.2.7",
+      "hashPath": "unmanagedexports.1.2.7.nupkg.sha512"
+    }
+  }
+}
